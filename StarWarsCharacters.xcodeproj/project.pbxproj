@@ -8,12 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		AA9AB6D120C70B4B003CEEC7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA9AB6D020C70B4B003CEEC7 /* AppDelegate.swift */; };
-		AA9AB6D320C70B4B003CEEC7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA9AB6D220C70B4B003CEEC7 /* ViewController.swift */; };
 		AA9AB6D620C70B4B003CEEC7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA9AB6D420C70B4B003CEEC7 /* Main.storyboard */; };
 		AA9AB6D820C70B61003CEEC7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA9AB6D720C70B61003CEEC7 /* Assets.xcassets */; };
 		AA9AB6DB20C70B61003CEEC7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA9AB6D920C70B61003CEEC7 /* LaunchScreen.storyboard */; };
 		AA9AB6E620C70B61003CEEC7 /* StarWarsCharactersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA9AB6E520C70B61003CEEC7 /* StarWarsCharactersTests.swift */; };
 		AA9AB6F120C70B61003CEEC7 /* StarWarsCharactersUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA9AB6F020C70B61003CEEC7 /* StarWarsCharactersUITests.swift */; };
+		AA9AB70120C70CF1003CEEC7 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA9AB70020C70CF1003CEEC7 /* TableViewController.swift */; };
+		AA9AB70320C70D51003CEEC7 /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA9AB70220C70D51003CEEC7 /* APIService.swift */; };
+		AA9AB70620C71202003CEEC7 /* CharacterModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AA9AB70420C71202003CEEC7 /* CharacterModel.xcdatamodeld */; };
+		AA9AB70920C712FF003CEEC7 /* StarWarsCharacter+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA9AB70720C712FF003CEEC7 /* StarWarsCharacter+CoreDataClass.swift */; };
+		AA9AB70A20C712FF003CEEC7 /* StarWarsCharacter+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA9AB70820C712FF003CEEC7 /* StarWarsCharacter+CoreDataProperties.swift */; };
+		AA9AB74920C71436003CEEC7 /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA9AB74820C71436003CEEC7 /* CoreDataStack.swift */; };
+		AA9AB74B20C72200003CEEC7 /* MyCustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA9AB74A20C72200003CEEC7 /* MyCustomTableViewCell.swift */; };
+		AA9AB74D20C72956003CEEC7 /* imageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA9AB74C20C72956003CEEC7 /* imageLoader.swift */; };
+		AA9AB74F20C73360003CEEC7 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA9AB74E20C73360003CEEC7 /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +44,6 @@
 /* Begin PBXFileReference section */
 		AA9AB6CD20C70B4B003CEEC7 /* StarWarsCharacters.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StarWarsCharacters.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA9AB6D020C70B4B003CEEC7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		AA9AB6D220C70B4B003CEEC7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		AA9AB6D520C70B4B003CEEC7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AA9AB6D720C70B61003CEEC7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AA9AB6DA20C70B61003CEEC7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +54,15 @@
 		AA9AB6EC20C70B61003CEEC7 /* StarWarsCharactersUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StarWarsCharactersUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA9AB6F020C70B61003CEEC7 /* StarWarsCharactersUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarWarsCharactersUITests.swift; sourceTree = "<group>"; };
 		AA9AB6F220C70B61003CEEC7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA9AB70020C70CF1003CEEC7 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		AA9AB70220C70D51003CEEC7 /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
+		AA9AB70520C71202003CEEC7 /* CharacterModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CharacterModel.xcdatamodel; sourceTree = "<group>"; };
+		AA9AB70720C712FF003CEEC7 /* StarWarsCharacter+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "StarWarsCharacter+CoreDataClass.swift"; sourceTree = "<group>"; };
+		AA9AB70820C712FF003CEEC7 /* StarWarsCharacter+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "StarWarsCharacter+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		AA9AB74820C71436003CEEC7 /* CoreDataStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
+		AA9AB74A20C72200003CEEC7 /* MyCustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCustomTableViewCell.swift; sourceTree = "<group>"; };
+		AA9AB74C20C72956003CEEC7 /* imageLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = imageLoader.swift; sourceTree = "<group>"; };
+		AA9AB74E20C73360003CEEC7 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,9 +113,17 @@
 		AA9AB6CF20C70B4B003CEEC7 /* StarWarsCharacters */ = {
 			isa = PBXGroup;
 			children = (
+				AA9AB70720C712FF003CEEC7 /* StarWarsCharacter+CoreDataClass.swift */,
+				AA9AB70820C712FF003CEEC7 /* StarWarsCharacter+CoreDataProperties.swift */,
+				AA9AB70020C70CF1003CEEC7 /* TableViewController.swift */,
+				AA9AB74C20C72956003CEEC7 /* imageLoader.swift */,
 				AA9AB6D020C70B4B003CEEC7 /* AppDelegate.swift */,
-				AA9AB6D220C70B4B003CEEC7 /* ViewController.swift */,
+				AA9AB74820C71436003CEEC7 /* CoreDataStack.swift */,
 				AA9AB6D420C70B4B003CEEC7 /* Main.storyboard */,
+				AA9AB74E20C73360003CEEC7 /* DetailViewController.swift */,
+				AA9AB74A20C72200003CEEC7 /* MyCustomTableViewCell.swift */,
+				AA9AB70220C70D51003CEEC7 /* APIService.swift */,
+				AA9AB70420C71202003CEEC7 /* CharacterModel.xcdatamodeld */,
 				AA9AB6D720C70B61003CEEC7 /* Assets.xcassets */,
 				AA9AB6D920C70B61003CEEC7 /* LaunchScreen.storyboard */,
 				AA9AB6DC20C70B61003CEEC7 /* Info.plist */,
@@ -256,8 +280,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AA9AB6D320C70B4B003CEEC7 /* ViewController.swift in Sources */,
+				AA9AB74920C71436003CEEC7 /* CoreDataStack.swift in Sources */,
 				AA9AB6D120C70B4B003CEEC7 /* AppDelegate.swift in Sources */,
+				AA9AB74B20C72200003CEEC7 /* MyCustomTableViewCell.swift in Sources */,
+				AA9AB74D20C72956003CEEC7 /* imageLoader.swift in Sources */,
+				AA9AB70920C712FF003CEEC7 /* StarWarsCharacter+CoreDataClass.swift in Sources */,
+				AA9AB70A20C712FF003CEEC7 /* StarWarsCharacter+CoreDataProperties.swift in Sources */,
+				AA9AB70620C71202003CEEC7 /* CharacterModel.xcdatamodeld in Sources */,
+				AA9AB74F20C73360003CEEC7 /* DetailViewController.swift in Sources */,
+				AA9AB70120C70CF1003CEEC7 /* TableViewController.swift in Sources */,
+				AA9AB70320C70D51003CEEC7 /* APIService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -578,6 +610,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		AA9AB70420C71202003CEEC7 /* CharacterModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				AA9AB70520C71202003CEEC7 /* CharacterModel.xcdatamodel */,
+			);
+			currentVersion = AA9AB70520C71202003CEEC7 /* CharacterModel.xcdatamodel */;
+			path = CharacterModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = AA9AB6C520C70B4B003CEEC7 /* Project object */;
 }
